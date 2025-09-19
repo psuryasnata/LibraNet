@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-class LibraNet
-{
+class LibraNet{
 protected:
     int id;
     string title;
@@ -213,4 +212,5 @@ int main(){
     cout << "\nAll Items:- " <<endl;
     lib.showAll();
     return 0;
+
 }
